@@ -638,7 +638,7 @@ update_directory(const char* path, const char* unmount_when_done) {
 
 static void
 wipe_data(int confirm) {
-    if (confirm && !confirm_selection( "Confirm wipe of all user data?", "Yes - Wipe all user data"))
+   if (confirm && !confirm_selection( "Confirm wipe of all user data?", "Yes - Wipe all user data"))
         return;
 
     ui_print("\n-- Wiping data...\n");
