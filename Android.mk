@@ -38,7 +38,7 @@ RECOVERY_NAME := ClockworkMod Recovery
 LOCAL_CFLAGS += -DI_AM_KOUSH
 else
 ifndef RECOVERY_NAME
-RECOVERY_NAME := CWM-based Recovery
+RECOVERY_NAME := CWM-based Recovery by artas182x
 endif
 endif
 
